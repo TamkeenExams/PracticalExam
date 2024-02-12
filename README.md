@@ -15,5 +15,9 @@ The API services's solution contains various components that need to be set up f
 3. Run the solution: press CTRL+F5, this should load the services API in your browser (using swagger).
 
 <p>
-    If you are running the solutino for the first time Entity Framework will go ahead and create the database objects in the server where the connection string (in appsettings.json) is pointing to, you should configure the connection string before pressing CTRL+F5. 
+    If you are running the solution for the first time Entity Framework will go ahead and create the database objects in the server where the connection string (in appsettings.json) is pointing to, you should configure the connection string before pressing CTRL+F5. In this case, it will create dbo.Products table in the local database. 
 </p>
+
+4. in Swagger UI browse and test all 4 CRUD operations.
+
+Although I understand claims based security and federation authenticaion, the concepts of the JWT framework are totally new to me, I have not been coding for almost 5 years and this framework was not around back then. Therefore I would like to be frank and save the reviewer's time by saying that I couldn't do the JWT part. My apologies.
