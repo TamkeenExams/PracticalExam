@@ -11,3 +11,9 @@ The API services's solution contains various components that need to be set up f
     app.UseSwagger();
     app.UseSwaggerUI();
 }</code>
+
+3. Run the solution: press CTRL+F5, this should load the services API in your browser (using swagger).
+
+<hint>
+    If you are running the solutino for the first time Entity Framework will go ahead and create the database objects in the server where the connection string (in appsettings.json) is pointing to, you should configure the connection string before pressing CTRL+F5. 
+</hint>
